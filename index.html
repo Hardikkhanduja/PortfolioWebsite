@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hardik Khanduja | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+    }
+    body {
+      background: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+      color: #f0f8ff;
+      line-height: 1.6;
+    }
+    header {
+      background: #111;
+      color: #ffffff;
+      padding: 1.5rem 0;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+      top: 0;
+      z-index: 1000;
+    }
+    nav {
+      background: #1a1a1a;
+      padding: 0.5rem 0;
+      text-align: center;
+    }
+    nav a {
+      color: #a3e7f0;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 600;
+    }
+    nav a:hover {
+      color: #66aaff;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .profile-img {
+      width: 180px;
+      border-radius: 100%;
+      border: 4px solid #fff;
+      margin: 0 auto 1rem;
+      display: block;
+      box-shadow: 0 0 20px rgba(255,255,255,0.4);
+    }
+    .bio {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 1.1rem;
+      color: #d1ecff;
+    }
+    .section {
+      margin-bottom: 2.5rem;
+    }
+    h2 {
+      border-left: 6px solid #66aaff;
+      padding-left: 0.5rem;
+      margin-bottom: 1rem;
+      font-size: 1.6rem;
+      color: #ffffff;
+    }
+    ul.skills, .projects {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul.skills li, .projects li {
+      background: rgba(255,255,255,0.05);
+      padding: 0.7rem 1rem;
+      margin-bottom: 0.5rem;
+      border-left: 4px solid #66aaff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+      transition: all 0.3s ease;
+    }
+    ul.skills li:hover, .projects li:hover {
+      background: rgba(255,255,255,0.1);
+      transform: scale(1.02);
+    }
+    .contact a {
+      display: inline-block;
+      margin-right: 1rem;
+      color: #a3e7f0;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .contact a:hover {
+      color: #66aaff;
+    }
+    .resume-btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.6rem 1.2rem;
+      background: #66aaff;
+      color: #000;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .resume-btn:hover {
+      background: #3399ff;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem 0;
+      background: #111;
+      color: #fff;
+      box-shadow: 0 -2px 5px rgba(0,0,0,0.4);
+    }
+      .hover-highlight:hover {
+      cursor: pointer;
+      background-color: rgba(255, 255, 255, 0.08);
+      box-shadow: 0 0 10px rgba(102, 170, 255, 0.6);
+      transform: scale(1.03);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hardik Khanduja</h1>
+    <p>Web Developer | Data Science Enthusiast | Lifelong Learner</p>
+  </header>
+
+  <nav>
+    <a href="#bio">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <img src="hardik pic.png" alt="Profile Photo" class="profile-img" data-aos="fade-down">
+
+    <div class="bio" id="bio" data-aos="fade-up">
+      <p>Hello! I'm Hardik Khanduja, an 18-year-old Computer Science Engineering student with a strong passion for technology and innovation. Outside the tech world, I proudly represent at the national level as a tennis player. I constantly strive to enhance my skills and stay ahead in the digital landscape.</p>
+      <a href="resume.pdf" class="resume-btn hover-highlight" download>Download Resume</a>
+
+    </div>
+
+    <div class="section" id="skills" data-aos="fade-up">
+      <h2>Technical Skills</h2>
+      <ul class="skills hover-highlight">
+        <li>Python</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>C, C++</li>
+        <li>Web Development</li>
+        <li>Data Science</li>
+      </ul>
+    </div>
+
+    <div class="section" id="projects" data-aos="fade-up">
+      <h2>Projects</h2>
+      <ul class="projects hover-highlight">
+        <li><strong>Patent Publication</strong> – Co-inventor of a patent on a smart AI-powered elevator system improving energy efficiency and safety in buildings.</li>
+        <li><strong>Spotify Clone</strong> – A responsive web version of Spotify's interface developed using HTML, CSS, and JavaScript.</li>
+        <li><strong>Fruit Classifier</strong> – A machine learning model using Decision Trees to classify fruits based on weight and color attributes.</li>
+        <li><strong>Portfolio Website</strong> – A modern, interactive personal portfolio showcasing my skills, projects, and background.</li>
+        <li><strong>Netflix Clone</strong> – A homepage UI replica of Netflix built with clean, responsive HTML and CSS.</li>
+        <li><strong>QR Code Generator</strong> – A Python-based application that generates QR codes for URLs or text input using the qrcode library.</li>
+        <li><strong>Digital Clock</strong> – A real-time digital clock GUI built in Python using Tkinter.</li>
+        <li><strong>Image Slideshow</strong> – A simple Python slideshow application using Tkinter and PIL to cycle through images automatically.</li>
+        <li><strong>Phonebook Application</strong> – A command-line contact management system implemented in C, supporting add, search, and delete functionalities.</li>
+        <li><strong>Unit Conversion Tool</strong> – A console-based tool in C that performs conversions between various units like temperature, length, and weight.</li>
+        <li><strong>Travel Management System</strong> – A mini project in C to manage travel packages, bookings, and customer details.</li>
+        <li><strong>Employee Management System</strong> – A dynamic memory allocation-based system in C for handling employee records with CRUD features.</li>
+      </ul>
+    </div>
+
+    <div class="section contact hover-highlight" id="contact" data-aos="fade-up">
+      <h2>Get in Touch</h2>
+      <p>Email: <a href="mailto:khanduja.hardik001@gmail.com">khanduja.hardik001@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/hardikkhanduja" target="_blank">@hardikkhanduja</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/hardik-khanduja-60a9a6287" target="_blank">@hardikkhanduja</a></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Hardik Khanduja. All rights reserved.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
