@@ -3,7 +3,7 @@
 This is my personal portfolio website built with **HTML**, **CSS**, and **JavaScript** to showcase my skills, projects, and resume. It features smooth scroll animations using AOS (Animate On Scroll) library and a responsive, clean design.
 
 ## 🔗 Live Preview
-
+https://portfolio-website-mu-tan.vercel.app/
 
 ## ✨ Features
 - Responsive layout for all screen sizes
